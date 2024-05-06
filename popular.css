@@ -35,4 +35,33 @@
    margin-top: 24px
   ;
  }
+
  
+/* Для экранов с шириной от 993px до 1200px
+@media  (max-width: 1200px) {
+  .popular-room {
+    gap: 20px; /* Уменьшаем расстояние между элементами */
+  
+
+
+/* @media screen and (min-width: 769px) and (max-width: 992px) {
+  .popular-room {
+    gap: 25px; 
+  }
+}
+
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+  .popular-room {
+    gap: 15px; 
+  }
+}
+ @media screen and (max-width: 576px) {
+  .popular-room {
+    gap: 5px; 
+  }
+} */ 
+
+
+
+

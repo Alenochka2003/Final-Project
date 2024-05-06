@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 16px;
 
   } 
 
@@ -22,10 +23,11 @@
     justify-content: center; 
     align-items: center;
     width: 135px;
-    height: 112px;
+    min-height: 112px;
     margin-top: 24px;
     background-color: rgba(151, 202, 209, 0.08);
     border-radius: 8px;
+    
   }
   
   .explore-foto p {
@@ -36,4 +38,57 @@
     height: 48px;
     width: 79px;
   }
- 
+  @media (max-width: 1200px)
+  {
+    .explore-room {
+     row-gap: 16px;
+     justify-content: space-between;
+     flex-wrap: wrap;
+     display: flex;
+    }
+   
+    .explore-foto{
+    width: calc(50% - 5rem);
+   
+  
+            }
+        }
+    
+        @media (min-width: 769px) {
+         .explore-foto{
+              column-gap: .5rem;
+          }
+      }
+      @media (min-width: 1024px) and (max-width: 1200px) {
+            .explore-foto {
+                width: calc(25% - .75rem);
+          
+            }
+        }
+
+        @media (max-width: 992px)
+{
+  .explore-foto {
+              width: calc(50% - .5rem);
+              text-align: center; 
+              padding-top: 1.25rem;
+              padding-bottom: 1rem;
+              padding-left: 1.25rem;
+            padding-right: 1.25rem;
+            row-gap: 10px;
+        justify-content: space-between;
+         flex-wrap: wrap;
+         display: flex;
+          }
+      }
+      
+  
+
+
+@media (max-width: 768px) {
+  .explore-foto {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    display: flex;
+  }
+}
