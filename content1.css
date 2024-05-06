@@ -1,0 +1,39 @@
+
+.content-box1{
+     display: flex;
+     justify-content: center;
+     margin-top: 71px;
+     margin-bottom: 24px;
+}
+.content-box1>* {
+width: 50%;
+}
+
+h1{ 
+    font-size: 42px; 
+} 
+
+ .content-box1 p {
+font-size: 16px;
+/* margin-left: 50px; */
+margin-top: 24px;
+margin-bottom: 24px;
+align-items: center;
+} 
+ .box1 {
+font-size: 16px;
+width: 125.28px;
+height: 40px;
+border-radius: 8px;
+background-color:rgba(0, 121, 138, 1) ;
+align-items: center; 
+
+}   
+.logo {
+    color: white;
+}
+ .bicikle{
+    margin-left: 54px;
+    /* margin-right: 161px; */
+    height: 269px;
+    } 

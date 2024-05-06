@@ -1,0 +1,38 @@
+.popular-room {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } 
+  .popular-foto a {
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+  }
+
+  .popular-foto img{
+    width: 100%;
+    gap: 42px;
+    align-items: center;
+  }
+    
+
+    .popular-text h2{
+      margin-top: 64px;
+      font-size: 28px;
+      margin-left: 1px;
+      
+    }
+    .popular-text p{
+      margin-top: 16px;
+      margin-bottom: 28px;
+      font-size: 16px;
+      
+    }
+ .popular-foto p{
+   color: rgba(33, 33, 33, 1);
+   font-size: 20px;
+   margin-top: 24px
+  ;
+ }
+ 

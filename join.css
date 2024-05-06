@@ -1,0 +1,51 @@
+.join-box1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+    height: 236px;
+    margin-top: 36px;
+    border-radius: 8px;
+    background-color:rgba(151, 202, 209, 0.08) ;
+   
+  
+    
+}
+
+.join-text h1 {
+    font-size: 28px;
+    margin-left: 56px;
+    margin-top: 36px;
+   
+   
+}
+
+.join-text p{
+    width: 664.64px;
+    font-size: 16px;
+    margin-top: 16px;
+    height: 56px;
+    margin-left: 56px;
+    /* margin-right: 74px; */
+}
+.join-btn{
+height: 40px;
+background-color:rgba(227, 35, 89, 1) ;
+border-radius: 8px;
+border: none;
+margin-top: 16px;
+width: 192px;
+margin-left: 56px;
+   
+}
+.hands{
+    /* margin-right: 56px; */
+     margin-top: 20px;
+     height: 196px;
+     margin-bottom: 20px;
+    } 
+
+    .sign-info {
+        color: white;
+    }
+
+   

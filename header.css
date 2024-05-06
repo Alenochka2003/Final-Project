@@ -1,0 +1,139 @@
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 11px 24px 11px 24px;
+    height: 64px; 
+}
+.metteng img{
+  width: 118.34px;
+  height: 34px;
+
+background-color: rgb(249, 123, 123);
+}
+
+    .header-content img {
+           width: auto;
+           
+        }
+     
+      .header-input {
+        display: flex;
+        align-items: center;
+        /* margin-left: 40px;
+        height: 42px; */
+        /* border-radius: 8px, 0px, 0px, 8px; */
+      }
+   
+     
+      .search {
+       margin-top: 11px;
+       
+      }
+      .lupa2{
+       border: none;
+       background-color: white;
+      }
+      .lupa2:active{
+       transform: translateX(1px);
+       transition: 0.03s;
+      }
+      .search-left{
+       padding-left: 40px;
+       padding-right: 10px;
+       margin-top: 10px;
+       align-items: center;
+       margin-right: -40px;
+       margin-left: -40px;
+       position: relative;
+       width: 16.27px;
+       height: 16.27px;
+   
+      }
+       .left {
+        height: 42px;
+        padding: 8px;
+        margin-top: 11px;
+        padding-left: 40px;
+        border: 1px solid #ccc;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+       }
+       .right {
+        height: 42px;
+        padding: 8px;
+        margin-top: 11px;
+        padding-left: 40px;
+        border: 1px solid #ccc;
+       }
+       /* .header-button {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+        height: 20px 20px 20px;
+        width: 72px 41px 42px ;
+       } */
+       .button-img{
+        display: flex;
+        justify-content: space-between;
+        font-size: 11px;
+       } 
+    
+    .metteng {
+      margin-right: 40px;
+      margin-top: 22px;
+
+    }
+       .header-button {
+        margin-top: 22px;
+        display:flex;
+        gap:21px;
+        
+        
+       } 
+       .lang {
+        display: flex;
+        align-items: center;
+        position: relative;
+        border: none;
+        background-color: white;
+        
+       }
+       .lang img{
+       position: relative ;
+       align-items: center;
+       margin-right:  5px;
+       width: 20px;
+       height: 20px;
+       } 
+       .lang:hover:active{
+        transform: translateY(2px);
+        color: black;
+       }
+       
+      .tab {
+        border: none;
+        background-color: white;
+        padding: 8px;
+        font-size: 14px;
+      }
+      .tab:hover:active{
+        transform: translateY(2px);
+        color: black;
+      }
+      .tab1 {
+        width: 83.13px;
+        height: 36px;
+        padding: 8px;
+        border-radius: 8px;
+        background-color: rgba(0, 121, 138, 1);
+        color: white;
+        border: none;
+    
+       
+      }
+      .tab1:hover:active {
+       background-color: rgb(5, 191, 215);
+       transform: translateX(5px);
+      }
+    
