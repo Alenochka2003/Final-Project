@@ -7,12 +7,12 @@
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="./style.css">
-  <link rel="stylesheet" href="./content1.css">
+  <!-- <link rel="stylesheet" href="./content1.css">
   <link rel="stylesheet" href="./header.css">
   <link rel="stylesheet" href="./events.css">
   <link rel="stylesheet" href="./upcoming.css">
   <link rel="stylesheet" href="./explore.css">
-  <link rel="stylesheet" href="./popular.css">
+  <link rel="stylesheet" href="./popular.css"> -->
 
   <title>Meetup </title>
 </head>
@@ -271,7 +271,7 @@
     </div>
   </events>
 
-  <upcoming>
+  
     <section class="upcoming">
       <div class="container">
         <div class="upcoming-container">
@@ -379,9 +379,9 @@
         </div>
       </div>
     </section>
-  </upcoming>
+  
 
-<join-meetup>
+
   <section class="join-meetup">
     <div class="container">
     <div class="join-meetup-container">
@@ -395,14 +395,14 @@
             <button class="join-btn"><a class="sign-info" href="#">Sign in </a>
             </button>
           </div>
-          <div>
+          <div class="join-right-text">
             <img class="hands" src="./image join/Руки вверх.svg" alt="">
           </div>
         </div>
       </div>
     </div>
   </section>
-</join-meetup>
+
 
 <explore>
 <section class="explore">
@@ -486,99 +486,117 @@
   </section>
 </explore>
 
-
-<popular>
-  <section class="popular">
-    <div class="container">
-    <div class="popular-container">
-
-      <div class="popular-all-container">
-        <div class="popular-text">
-          <h2>Popular cities on Meetup </h2>
-         
-            <p> Looking for fun things to do near you?
-               See what Meetup organizers are planning in cities around the country.</p>
-              </div>
-      </div>
-               <div class="popular-room">
-
-                <div class="popular-foto">
-                  <a href="#">
-                  <img src="./image popular/1 → new_york.webp.svg" alt="">
-                    <p> New York
-                      </p>
-                    
-                  </a>
-                </div>
-
-                <div class="popular-foto">
-                  <a href="#">
-                  <img src="./image popular/2→ san_francisco.webp.svg" alt="">
-                    <p> San Francisco
-                      </p>
-                  
-                  </a>
-                </div>
-      
-
-                <div class="popular-foto">
-                  <a href="#">
-                  <img src="./image popular/3 → chicago.webp.svg" alt="">
-                    <p>Chicago
-                      </p>
-                   
-                  </a>
-                </div>
-
-                <div class="popular-foto">
-                  <a href="#">
-                  <img src="./image popular/4→ nashville.webp.svg" alt="">
-                    <p>Nashville
-                      </p>
-                    
-                  </a>
-                </div>
-                <div class="popular-foto">
-                  <a href="#">
-                  <img src="./image popular/5 → miami.webp.svg" alt="">
-                    <p>Miami
-                      </p>
-                    </div>
-                  </a>
-                </div>
-      
-              </div>
-    </div>
-    </div>
-  </section>
-</popular>
-
-<section class="how-meetup">
+<section class="popular">
   <div class="container">
-  <div class="how-meetup-container">
-
-    <div class="meetup-alls-container">
-      <div class="meetups-text">
-        <h2> How Meetup works</h2>
-        </div>
-       
-       <div class="meetups-text-left">
-
-        </div>
-
-        <div class="meetups-text-right">
-
-        </div>
+      <div class="popular-container">
+          <div class="popular__cities">
+              <div class="popular-cities-text">
+                  <h2>Popular cities on Meetup</h2>
+                  <p>Looking for fun things to do near you? See what Meetup organizers are planning in cities
+                      around the country.</p>
+              </div>
+              <div class="popular-grids">
+                  <a href="#">
+                      <img src="./image popular/1 → new_york.webp.svg" alt="">
+                      <h3>New York</h3>
+                  </a>
+                  <a href="#">
+                      <img src="./image popular/2→ san_francisco.webp.svg" alt="">
+                      <h3>San Francisco</h3>
+                  </a>
+                  <a href="#">
+                      <img src="./image popular/3 → chicago.webp.svg" alt="">
+                      <h3>Chicago</h3>
+                  </a>
+                  <a href="#">
+                      <img src="./image popular/4→ nashville.webp.svg" alt="">
+                      <h3>Nashville</h3>
+                  </a>
+                  <a class="hidden-city" href="#">
+                      <img src="./image popular/5 → miami.webp.svg" alt="">
+                      <h3>Miami</h3>
+                  </a>
+              </div>
+          </div>
+          <div class="popular-meetup">
+              <div class="popular-works-texst">
+                  <h2>How Meetup works</h2>
+              </div>
+              <div class="popular-group">
+                  <div class="popular-works-left">
+                      <a href="#">
+                          <div class="a-leftside">
+                              <img src="./image popular/Lupa how meetup.svg.svg" alt="">
+                          </div>
+                          <div class="a-rightside">
+                              <h3>Discover events and groups</h3>
+                              <p>See who's hosting local events for all the things you love</p>
+                              <p class="search2">Search events and groups</p>
+                          </div>
+                      </a>
+                  </div>
+                  <div class="popular-works-right">
+                      <a href="#">
+                          <div class="a-leftside">
+                              <img src="./image popular/Plus how meetup.svg.svg" alt="">
+                          </div>
+                          <div class="a-rightside">
+                              <h3>Start a group to host events</h3>
+                              <p>Create your own Meetup group, and draw from a community of millions</p>
+                              <p class="search2">Start a group</p>
+                          </div>
+                      </a>
+                  </div>
+              </div>
+          </div>
       </div>
-  </div>
   </div>
 </section>
 
-  <section class="friendships">
-    <div class="friendship-container">
-      <!-- Содержимое раздела дружбы -->
-    </div>
-  </section>
+
+
+<section class="friendships">
+  <div class="container">
+      <div class="friendships-container">
+          <div class="friendships-text">
+              <h2>Friendships are made on Meetup</h2>
+              <p class="texts">Since 2002, members have used Meetup to make new friends, meet like-minded people,
+                  spend time on hobbies, and
+                  connect with locals over shared interests. Learn how.
+              </p>
+          </div>
+          <div class="friendships-grid-room">
+              <a href="#">
+                  <img src="./image-friendschip/Еда→ first_article.webp.png" alt="">
+                  <h3>I Used Meetup to Make Friends at Brunch</h3>
+                  <p class="texts">New Jersey-based writer and college student
+                      Brianna Stryker wanted to meet friends in her
+                      hometown. Learn how she used Meetup to make
+                      connections by joining a Girls Night Out Meetup
+                      group.</p>
+                  <p class="search3">Read more</p>
+              </a>
+              <a href="#">
+                  <img src="./image-friendschip/Парни → second_article.webp.png" alt="">
+                  <h3>How to Turn Casual Connections into Close Friendships</h3>
+                  <p class="texts">It’s proven that close friendships are harder to
+                      make as an adult. But don’t sweat it: here’s what
+                      you can do to simplify the process.</p>
+                  <p class="search3">Read more</p>
+              </a>
+              <a href="#">
+                  <img src="./image-friendschip/Китайцы → third_article.webp.png" alt="">
+                  <h3>Do You Have the “Right” Number of Friends?</h3>
+                  <p class="texts">Studies from around the world have tried to help
+                      people answer this question. Learn about the
+                      three tiers of friendship and how to fulfill them.</p>
+                  <p class="search3">Read more</p>
+              </a>
+          </div>
+      </div>
+  </div>
+</section>
+
 
   <footer>
     <div class="footer-container">

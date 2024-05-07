@@ -37,7 +37,7 @@ width: 192px;
 margin-left: 56px;
    
 }
-.hands{
+.join-left-text .hand{
     /* margin-right: 56px; */
      margin-top: 20px;
      height: 196px;
@@ -47,5 +47,15 @@ margin-left: 56px;
     .sign-info {
         color: white;
     }
-
    
+     @media (max-width: 1400px){
+.join-meetup-container{
+    max-width: 1156px;
+}
+  }
+  
+  /* @media (min-width: 1140px) {
+    .join-meetup-containe {
+        display: block;
+    }
+} */
