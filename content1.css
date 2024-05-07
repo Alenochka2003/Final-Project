@@ -37,3 +37,55 @@ align-items: center;
     /* margin-right: 161px; */
     height: 269px;
     } 
+    @media (max-width: 992px) {
+        .bicikle {
+            margin-left: auto; /* Перемещаем bicikle вправо */
+            margin-right: auto; /* Перемещаем bicikle влево */
+            display: block; /* Переводим bicikle на новую строку */
+            height: auto; }
+            .content-box1 {
+               display: flex;
+                align-items: center; /* Выравниваем элементы по центру */
+                margin-top: 15px; 
+            }
+        }
+  
+    @media (max-width: 768px) {
+        .bicikle {
+            flex-direction: column;
+            margin-left: auto; /* Перемещаем bicikle вправо */
+            margin-right: auto; /* Перемещаем bicikle влево */
+            display: block; /* Переводим bicikle на новую строку */
+            height: auto; /
+        }
+        .content-box1 {
+            flex-direction: column;
+            align-items: center; /* Выравниваем элементы по центру */
+            margin-top: 15px; 
+           font-size: 16px;}
+      }
+
+     
+    @media screen and (max-width: 576px) {
+        .bicikle {
+          margin-left: auto; /* Перемещаем bicikle вправо */
+          margin-right: auto; /* Перемещаем bicikle влево */
+          display: block; /* Переводим bicikle на новую строку */
+          height: auto; /* Автоматический размер по высоте */
+        }
+      }
+      
+      @media screen and (max-width: 576px) {
+        .bicikle{
+            position: relative;
+          align-items: center; /* Выравниваем элементы по центру */
+          margin-top: 6rem;
+          width: 100%;
+          margin-bottom: 1.5rem;/* Уменьшаем отступ сверху */
+        }
+        h1{
+            display: flex;
+            justify-content: space-between;
+        }
+      }
+     
