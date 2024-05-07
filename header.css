@@ -141,6 +141,38 @@ background-color: rgb(249, 123, 123);
        background-color: rgb(5, 191, 215);
        transform: translateX(5px);
       }
+      .hidden-input{
+        display: flex;
+        align-items: center;
+         margin-left: 25px;
+         width: 80%;
+         display: none;
+         
+      }
+
+      .left-hidden{
+        height: 42px;
+        padding: 8px;
+        padding-left: 40px;
+        border: 1px solid #ccc;
+        border-top-left-radius: 8px;
+        border-bottom-left-radius: 8px;
+      }
+      .lupa-red {
+        display: flex;
+        align-items:  center;
+        border: none;
+        background-color: white;
+       
+      }
+     .search-left_p { 
+      position: absolute;
+        align-items: center;
+        width: 16.27px;
+        height: 16.27px;
+        margin-left: 15px;
+   
+      }
 /* 
       @media ( max-width: 992px){
 .left{
@@ -152,8 +184,12 @@ background-color: rgb(249, 123, 123);
 
       
     @media ( max-width: 992px){
-      .right{
+      .right, .left, .lupa2 {
         display: none;
+      }
+
+      .hidden-input{
+        display: flex;
       }
     } 
  

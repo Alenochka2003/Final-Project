@@ -6,6 +6,7 @@
 @import url('./explore.css');
 @import url('./popular.css');
 @import url('./friendschip.css');
+@import url('./footer.css');
 
 * {
     margin: 0;

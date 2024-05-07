@@ -154,98 +154,63 @@ gap: 20px;
       grid-template-columns: 1fr;
      
     }
-  }
+    .grid-info{
+      display: flex;
+     flex-direction: column;
+     width: 300%;
+    }
+    .card-grids  a h3{
+      order: 1;
+      width: 100%;
+      font-size: 9.81px;
+      font-weight: 500;
+      line-height: 14.71px;
+      text-align: left;
 
-  /* .events-grids-room h3{
-    order: 1;
-    font-size: 16px;} */ 
-     /* width: 100%;
-  } */
+      margin-bottom: 2.45px;
+    }
 
-  /* .card-grids a {
+    .card-grids {
+      display: flex;
+          flex-direction: column;
+          width: 159px;
+          height: 89px;
+          gap: 20px;
+    }
+    .left-text h2 {
+      font-size: 20px;
+          line-height: 24.67px;
+          white-space: nowrap;
+    }
+.card-grids .date{
+  order: 0;
     display: flex;
-    flex-direction:row;
-    width: 100%;
-  }
-
-  .card-grids p{
-    order:0;
-    font-size: 14px;
+    align-items: center;
+    margin-bottom: 1.976px;
+    font-size: 8.58px;
+    font-weight: 500;
+    line-height: 20px;
     letter-spacing: -0.3499999940395355px;
     text-align: left;
     color: rgba(124, 111, 80, 1);
+
+}
+    .card-grids p{
+      order: 2;
+          color: rgba(112, 112, 112, 1);
+          font-size: 8.58px;
+          font-weight: 400;
+          line-height: 12.26px;
+          text-align: left; 
+    }
+
+    .card-grids__main-img{
+          width: 159px;
+          height: 89.07px;
+          object-fit: cover ;
+    }
   }
 
-  .card-grids h3{
-    font-size: 16px;
-    letter-spacing: -0.3499999940395355px;
-    text-align: left;
-    color: rgba(124, 111, 80, 1);
-  } 
-   .events-grids-room .date img{
-    display: flex;
-    flex-direction: column;}
-
-  .events-grids-room .span-data{
-    display: none;
-  }
-} */
 
   
-
-  /* .left-text h2{
-    font-size: 20px;
-    line-height: 24.67px;
-    white-space: nowrap;
-  }
- .left-text a{
-  margin-left: 8px;
-  padding: 8px 8.22px 5.71px 8.22px;
-  gap: 8px;
-  font-size: 13.71px;
-  border-radius: 5.48px;
- }
- .left-text a img {
-  width: 15.08px;
-  height: 15.08px;
- }
- .card-grids__main-img{
-  width: 159px;
-  height: 89.07px;
-  object-fit: contain;
- }
- .card-grids a h3 {
-  order: 1;
-  width: 100%;
-  font-size: 9.81px;
-  font-weight: 500;
-  line-height: 14.71px;
-  text-align: left;
-  margin-top: 0;
-  margin-bottom: 2.45px;
- }
- .date{
-  order: 0;
-  display: flex;
-  align-items: center;
-  margin-bottom: 1.976px;
-  font-size: 8.58px;
-  font-weight: 500;
-  line-height: 20px;
-  letter-spacing: -0.3499999940395355px;
-  text-align: left;
-  color: rgba(124, 111, 80, 1);
- }
- .card-grids {
-  display: flex;
-  flex-direction: column;
-  width: 300%;
- }
- .card-grids p{
-  order: 2;
-    color: rgba(112, 112, 112, 1);
-    font-size: 8.58px;
-    font-weight: 400;
-    line-height: 12.26px;
-    text-align: left;  */
 
