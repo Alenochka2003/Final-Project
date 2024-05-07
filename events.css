@@ -4,6 +4,7 @@ h2{
   margin-left: -8px;
   }
 
+
   .right-text a {
     font-size: 17px;
     color: rgba(0, 121, 138, 1); 
@@ -145,6 +146,15 @@ gap: 20px;
   .events-grids-room {
     grid-template-columns: 1fr;
   }
+  
+}
+
+  @media (max-width: 576px)   {
+    .events-grids-room {
+      grid-template-columns: 1fr;
+     
+    }
+  }
 
   /* .events-grids-room h3{
     order: 1;
@@ -182,11 +192,7 @@ gap: 20px;
 } */
 
   
-@media (max-width: 576px)   {
-  .events-grids-room {
-    grid-template-columns: 1fr;
-   
-  }
+
   /* .left-text h2{
     font-size: 20px;
     line-height: 24.67px;
@@ -242,6 +248,4 @@ gap: 20px;
     font-weight: 400;
     line-height: 12.26px;
     text-align: left;  */
- }
-}
 

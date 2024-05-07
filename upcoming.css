@@ -106,6 +106,12 @@
       }
       
        @media (max-width: 768px) {
+
+        .events-info{
+          display: flex;
+          flex-direction: column;
+          
+        }
         .upcoming-grids-room {
           grid-template-columns: 1fr;
           gap: 0;
@@ -116,6 +122,7 @@
           justify-content: center;
           align-items: center;
           margin-bottom: 21px;
+          gap: 20px;
         }
         .upcoming-grids-room h3{
           order: 1;
@@ -131,7 +138,7 @@
           margin-bottom: 2.45px;
         
         }
-         .upcoming-grids-room.date2 {
+         .upcoming-grids-room .date2 {
           gap: 20px;
           order: 0;
           letter-spacing: -0.3499999940395355px;

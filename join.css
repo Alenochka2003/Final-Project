@@ -1,31 +1,41 @@
-.join-box1{
+.join-box-rooms{
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 24px;
-    height: 236px;
     margin-top: 36px;
     border-radius: 8px;
     background-color:rgba(151, 202, 209, 0.08) ;
+    padding: 20px 56px 20px 56px;
    
   
     
 }
 
+
+.join-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.join-text img {
+    display: none;
+}
 .join-text h1 {
     font-size: 28px;
-    margin-left: 56px;
-    margin-top: 36px;
-   
+    /* margin-left: 56px;
+    margin-top: 36px; */
+    
    
 }
 
-.join-text p{
-    width: 664.64px;
+.join-text p {
+    width: 85%;
     font-size: 16px;
     margin-top: 16px;
-    height: 56px;
-    margin-left: 56px;
-    /* margin-right: 74px; */
+    font-weight: 400;
+    line-height: 24px;
+
 }
 .join-btn{
 height: 40px;
@@ -34,14 +44,12 @@ border-radius: 8px;
 border: none;
 margin-top: 16px;
 width: 192px;
-margin-left: 56px;
+
    
 }
-.join-left-text .hand{
-    /* margin-right: 56px; */
-     margin-top: 20px;
-     height: 196px;
-     margin-bottom: 20px;
+.join-right-text {
+display: flex;
+    
     } 
 
     .sign-info {
@@ -54,6 +62,47 @@ margin-left: 56px;
 }
   }
   
+
+  @media (max-width: 1200px) {
+    .join-meetup-container {
+      
+    }
+  }
+  @media (max-width: 992px) {
+    .join-meetup-container {
+     
+    }
+  }
+
+  @media (max-width: 768px) {
+    .join-box-rooms{
+        flex-direction: column;
+    }
+    .join-btn {
+        align-self:  center;
+    }
+    .join-text img {
+     display: flex;
+     height: 136.8px;
+    }
+    .join-right-text {
+        display: none;
+    }
+    .join-text p {
+        font-size:12px ;
+        margin-bottom: 22px;
+    }
+    
+}
+    
+
+
+  @media (max-width: 576px) {
+     
+    .join-text h1 {
+        font-size:20px ;
+    }
+  }
   /* @media (min-width: 1140px) {
     .join-meetup-containe {
         display: block;
