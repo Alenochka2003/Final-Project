@@ -1,17 +1,22 @@
+
+
 .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 11px 24px 11px 24px;
     height: 64px; 
+   
 }
 .metteng img{
-  width: 118.34px;
-  height: 34px;
+  display: flex;
+  align-items: center;
+  /* width: 118.34px; */
+  height: 34px; 
+  background-color: rgb(249, 123, 123);} 
 
-background-color: rgb(249, 123, 123);
-}
 
+ 
     .header-content img {
            width: auto;
            
@@ -20,16 +25,26 @@ background-color: rgb(249, 123, 123);
       .header-input  {
         display: flex;
         align-items: center;
-        width: 50%;
-        
+       
         
       }
    
-     
-      .search {
-       margin-top: 11px;
-       
+      .input-outer{
+        display: flex;
+        align-items: center;
+        position: relative;
       }
+
+      .input-outer .left{
+        width: 300px;
+      }
+      .input-outer .search-left{
+        position: absolute;
+        top: 3px;
+        left: 12px;
+        
+      }
+      
       .lupa2{
        border: none;
        background-color: white;
@@ -39,14 +54,11 @@ background-color: rgb(249, 123, 123);
        transition: 0.03s;
       }
       .search-left{
-        display: flex;
-       padding-left: 40px;
-       padding-right: 10px;
+       display: flex;
+       /* padding-left: 40px;
+       padding-right: 10px; */
        margin-top: 10px;
        align-items: center;
-       margin-right: -40px;
-       margin-left: -40px;
-       position: relative;
        width: 16.27px;
        height: 16.27px;
  
@@ -54,9 +66,9 @@ background-color: rgb(249, 123, 123);
 
       }
        .left {
+       
         height: 42px;
         padding: 8px;
-        margin-top: 11px;
         padding-left: 40px;
         border: 1px solid #ccc;
         border-top-left-radius: 8px;
@@ -65,32 +77,24 @@ background-color: rgb(249, 123, 123);
        .right {
         height: 42px;
         padding: 8px;
-        margin-top: 11px;
+        /* margin-top: 11px; */
         padding-left: 40px;
         border: 1px solid #ccc;
        }
 
-    
-       /* .header-button {
-        display: flex;
-        justify-content: space-between;
-        gap: 15px;
-        height: 20px 20px 20px;
-        width: 72px 41px 42px ;
-       } */
        .button-img{
         display: flex;
         justify-content: space-between;
         font-size: 11px;
        } 
     
-    .metteng {
+    /* .metteng {
       margin-right: 40px;
       margin-top: 22px;
 
-    }
+    } */
        .header-button {
-        margin-top: 22px;
+        /* margin-top: 22px; */
         display:flex;
         gap:21px;
         
@@ -173,31 +177,43 @@ background-color: rgb(249, 123, 123);
         margin-left: 15px;
    
       }
-/* 
-      @media ( max-width: 992px){
-.left{
-  width: 50%;
-  position: relative;
-  border: none;
-  */
-  /* position: absolute; */
 
-      
+  @media (max-width: 1200px) {
+    header {
+      padding: 20px;
+    }
+  }
     @media ( max-width: 992px){
-      .right, .left, .lupa2 {
+     
+      .input-outer .left{
+        width: 250px;
+      }
+    } 
+ 
+
+     @media ( max-width: 768px){
+      /* .left{
+        width: 70%;
+        position: relative;
+       
+      } */
+      .header-content{
+        padding-top: 15px;
+       /* width: 100%; */
+
+      }
+      .input-outer {
+        display: none;
+      }
+    }
+
+    /* @media (min-width: 576px) {
+      .right, .left, .lupa2{
         display: none;
       }
 
       .hidden-input{
         display: flex;
       }
-    } 
- 
-
-     @media ( max-width: 768px){
-      .left{
-        width: 70%;
-        position: relative;
-       
-      }
     }
+     */
