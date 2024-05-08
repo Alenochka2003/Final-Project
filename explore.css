@@ -39,7 +39,7 @@
     width: 79px;
   }
 
-  @media  (max-width: 1200px) {
+  @media  (max-width: 1400px) {
     .explore-foto {
         width: calc(25% - .75rem);
         /* width: calc(50% - 5rem); */
@@ -54,19 +54,20 @@
       
      }
 }
-  /* @media (max-width: 1200px) */
-  /* {
+  @media (max-width: 1200px)
+  {
     .explore-room {
      row-gap: 16px;
      justify-content: space-between;
      flex-wrap: wrap;
      display: flex;
     }
-    */
-    /* .explore-foto{
+   
+    .explore-foto{
     width: calc(50% - 5rem);
-    */
-  
+    }
+    }
+   
             
         
 /*   
