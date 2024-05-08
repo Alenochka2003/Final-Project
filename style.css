@@ -1,12 +1,12 @@
-@import url('./header.css');
-@import url('./content1.css');
-@import url('./events.css');
-@import url('./upcoming.css');
-@import url('./join.css');
-@import url('./explore.css');
-@import url('./popular.css');
-@import url('./friendschip.css');
-@import url('./footer.css');
+@import url('./css-all/header.css');
+@import url('./css-all/content1.css');
+@import url('./css-all/events.css');
+@import url('./css-all/upcoming.css');
+@import url('./css-all/join.css');
+@import url('./css-all/explore.css');
+@import url('./css-all/popular.css');
+@import url('./css-all/friendschip.css');
+@import url('./css-all/footer.css');
 
 * {
     margin: 0;
