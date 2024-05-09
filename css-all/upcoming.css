@@ -23,12 +23,12 @@
 
 .upcoming-grids-room h3 {
   width: 82%;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 600;
   line-height: 24px;
   text-align: left;
   margin-top: 12px;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 .upcoming__img {
   border-radius: 8px;
@@ -46,6 +46,7 @@
 .upcoming-grids-room p {
   display: flex;
   align-items: center;
+  margin-top: 8px;
   margin-bottom: 12px;
   font-size: 14px;
 }
@@ -65,9 +66,8 @@
 
 }
 
-.free {
+.logotips .free {
   margin-left: 16px;
- 
 }
 
 
@@ -105,7 +105,7 @@
 .upcoming-grids-room .date2 {
   order: 0;
   /* margin-bottom: 1.976px; */
-  letter-spacing: -0.3499999940395355px;
+  letter-spacing: -0.35px;
   text-align: left;
   color: rgba(124, 111, 80, 1);
    margin-top: 10px;
@@ -136,6 +136,7 @@
 
 .upcoming-info .kilometr {
   order: 2;
+  font-size: 14px;
 }
 .upcoming-grids-room .date2 img {
   display: none;
@@ -147,14 +148,16 @@
 }
 @media (max-width: 576px) {
 .upcoming-left h2 {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24.67px;
   white-space: nowrap;
   
 }
 .upcoming__img {
-  height: 54.07px;
-  object-fit: contain;
+  width: 97px;
+    height: 55px;
+    object-fit: cover;
+    border-radius: 3px;
   
 }
 
@@ -192,7 +195,7 @@
   
 }
 
-.kilometr {
+.upcoming-info .kilometr {
   order: 2;
   color: rgba(112, 112, 112, 1);
   font-size: 8.58px;

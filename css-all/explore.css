@@ -95,3 +95,8 @@
     display: flex;
   }
 }
+@media (max-width: 768px) {
+  .explore-text h2 {
+    font-size: 20px;
+  }
+}

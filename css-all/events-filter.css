@@ -74,12 +74,12 @@ select {
     gap: 18px;
 }
 
-.events__filtred-events {
+.filters-events {
     max-width: 605px;
     margin-top: 56px;
 }
 
-.events__events-link {
+.events-link {
     border-top: 1px solid #d9d9d9;
     text-decoration: none;
     padding-top: 16px;
@@ -92,7 +92,7 @@ select {
     text-decoration: underline;
 }
 
-.events__events-images {
+.events-images-alls {
     width: 160px;
     height: 90px;
     border-radius: 8px;
@@ -104,38 +104,38 @@ select {
     width: 160px;
 }
 
-.events__events-description {
+.events-all-details {
     position: relative;
 }
 
-.events__events-online-event-image {
+.events-all-online {
     position: absolute;
     left: -170px;
     top: 5px;
     width: clamp(25px, 50%, 106px);
 }
 
-.events__events-date {
+.events-all-date {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.4;
     color: #7c6f50;
 }
 
-.events__events-title {
+.events-haeder-text {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
 }
 
-.events__events-category {
+.events-all-category {
     font-size: 14px;
     font-weight: 500;
     line-height: 1.4;
     color: rgba(112, 112, 112, 1);
 }
 
-.events__events-atendees {
+.events-info-container-attends {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.4;
@@ -240,11 +240,11 @@ select {
         outline: none;
     }
 
-    .events__filtred-events {
+    .filters-events {
         margin-top: 18px;
     }
 
-    .events__events-images {
+    .events-images-alls {
         width: 98px;
         height: 55px;
     }
@@ -252,32 +252,32 @@ select {
         width: 98px;
     }
 
-    .events__events-link {
+    .events-link {
         max-width: 495px;
         gap: 8px;
     }
 
-    .events__events-date {
+    .events-all-date {
         font-size: 10px;
         padding-left: 4px;
     }
 
-    .events__events-title {
+    .events-haeder-text {
         font-size: 12px;
         padding-left: 4px;
     }
 
-    .events__events-category {
+    .events-all-category {
         font-size: 10px;
         padding-left: 4px;
     }
 
-    .events__events-atendees {
+    .events-info-container-attends {
         font-size: 10px;
         padding-left: 4px;
     }
 
-    .events__events-online-event-image {
+    .events-all-online {
         position: static;
         width: 80px;
     }

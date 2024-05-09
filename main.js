@@ -2,47 +2,47 @@ import { eventsStore } from "./js/data.js";
 import { createDomElement } from "./js/utils.js";
 import { formatDate } from "./js/utils.js";
 
-const allEvents = document.querySelector(".events__filtred-events")
+const Eventses= document.querySelector(".filters-events")
 const eventTypeSelect = document.getElementById("event-type")
 const eventDistanceSelect = document.getElementById("event-distance")
 const eventCategorySelect = document.getElementById("event-category")
 
 function createEvent(arr) {
   arr.forEach((eventElement) => {
-    const eventsLink = createDomElement({ tag: "a", className: "events__events-link", href: "#" })
-    allEvents.append(eventsLink)
-    const eventsImages = createDomElement({ tag: "div", className: "events__events-images" })
-    eventsLink.append(eventsImages)
-    const eventImage = createDomElement({ tag: "img", className: "events__events-image", src: eventElement.image })
+    const eventItem = createDomElement({ tag: "a", className: "events-link", href: "#" })
+    Eventses.append(eventItem)
+    const eventsImages = createDomElement({ tag: "div", className: "events-images-alls" })
+    eventItem.append(eventsImages)
+    const eventImage = createDomElement({ tag: "img", className: "events-images-alls", src: eventElement.image })
     eventsImages.append(eventImage)
-    const eventsDescription = createDomElement({ tag: "div", className: "events__events-description" })
-    eventsLink.append(eventsDescription)
-    const eventsDate = createDomElement({ tag: "p", className: "events__events-date", textValue: formatDate(eventElement.date) })
-    const eventsTitle = createDomElement({ tag: "h3", className: "events__events-title", textValue: eventElement.title })
-    const eventsCategory = createDomElement({ tag: "p", className: "events__events-category", textValue: eventElement.category })
-    eventsDescription.append(eventsDate, eventsTitle, eventsCategory);
+    const eventDetails = createDomElement({ tag: "div", className: "events-all-details" })
+    eventItem.append(eventDetails)
+    const eventsDate = createDomElement({ tag: "p", className: "events-all-date", textValue: formatDate(eventElement.date) })
+    const eventsHeader = createDomElement({ tag: "h3", className: "events-haeder-text", textValue: eventElement.title })
+    const eventsCategory = createDomElement({ tag: "p", className: "events-all-category", textValue: eventElement.category })
+    eventDetails.append(eventsDate,eventsHeader , eventsCategory);
     if (eventElement.type === "online") {
       const onlineEventImage = createDomElement({
         tag: "img",
-        className: "events__events-online-event-image",
+        className: "events-all-online",
         src: "./image-events-filter/online-event.svg",
         alt: "online event",
       })
-      eventsDescription.append(onlineEventImage)
+      eventDetails.append(onlineEventImage)
     }
-    if (eventElement.attendees) {
+    if (eventElement.attendsInfo) {
       const eventsAtendees = createDomElement({
         tag: "p",
-        className: "events__events-atendees",
-        textValue:`${eventElement.attendees} attendees`,
+        className: "events-info-container-attendsInfo",
+        textValue:`${eventElement.attendsInfo} attendsInfo`,
       })
-      eventsDescription.append(eventsAtendees)
+      eventDetails.append(eventsAtendees)
     }
   })
 }
 function clearEvents() {
-  while (allEvents.firstChild) {
-    allEvents.removeChild(allEvents.firstChild);
+  while (Eventses.firstChild) {
+    Eventses.removeChild(Eventses.firstChild);
   }
 }
 function filterEvents(arr) {
