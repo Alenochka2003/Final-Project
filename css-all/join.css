@@ -44,8 +44,12 @@ border-radius: 8px;
 border: none;
 margin-top: 16px;
 width: 192px;
-
    
+}
+
+.join-btn:hover{
+    background-color: rgb(229, 87, 87);
+    transition: 0.4s ease;
 }
 .join-right-text {
 display: flex;
@@ -92,9 +96,10 @@ display: flex;
         font-size:12px ;
         margin-bottom: 22px;
     }
-    
+    .join-text h1 {
+        font-size: 20px;
 }
-    
+}
 
 
   @media (max-width: 576px) {

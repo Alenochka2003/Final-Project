@@ -7,8 +7,8 @@
 
 } 
 
-
 .explore-text h2{
+  font-size: 28px;
   margin-left: 2px;
   margin-bottom: 24px;
 }
@@ -17,6 +17,11 @@
 .explore-foto img {
   margin-bottom: 6px;
   align-items: center;
+}
+
+.explore-foto:hover{
+  background-color: rgb(217, 241, 241);
+   
 }
 .explore-foto a {
   display: flex; 

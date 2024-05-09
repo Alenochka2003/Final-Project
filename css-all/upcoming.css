@@ -8,6 +8,15 @@
   justify-content: space-between;
   align-items: center;
 }
+.upcoming-left h2 {
+  font-size: 28px;
+  line-height: 24.67px;
+  white-space: nowrap;
+  
+}
+.upcoming-info h3:hover {
+  text-decoration: underline;
+}
 
 .upcoming-right a {
   color: rgba(0, 121, 138, 1);
@@ -28,6 +37,7 @@
   line-height: 24px;
   text-align: left;
   margin-top: 12px;
+  
   /* margin-bottom: 16px; */
 }
 .upcoming__img {
@@ -102,14 +112,7 @@
   gap: 0;
 }
 
-.upcoming-grids-room .date2 {
-  order: 0;
-  /* margin-bottom: 1.976px; */
-  letter-spacing: -0.35px;
-  text-align: left;
-  color: rgba(124, 111, 80, 1);
-   margin-top: 10px;
-}
+
 .upcoming-grids-room a {
   display: flex;
   border-top: 1px solid rgba(217, 217, 217, 1);
@@ -128,16 +131,6 @@
   display: none;
 }
 
-.upcoming-info {
-  display: flex;
-  flex-direction: column;
-  width: 300%;
-}
-
-.upcoming-info .kilometr {
-  order: 2;
-  font-size: 14px;
-}
 .upcoming-grids-room .date2 img {
   display: none;
 }
@@ -181,10 +174,11 @@
   font-weight: 500;
   line-height: 20px;
   margin-top: 6px;
-  letter-spacing: -0.3499999940395355px;
+  letter-spacing: -0.35px;
   color: rgba(124, 111, 80, 1);
 
 }
+
 
 .upcoming-info {
   display: flex;

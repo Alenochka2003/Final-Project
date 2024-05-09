@@ -1,5 +1,6 @@
 .friendships-text h2 {
     margin-bottom: 16px;
+    font-size: 28px;
     
 }
 
@@ -45,7 +46,9 @@
     color: rgba(0, 121, 138, 1);
 
 }
-
+.search3:hover{
+    text-decoration: underline;
+}
 
 @media (max-width: 1400px) {
     .friendships-container {
@@ -76,11 +79,10 @@
     .friendships-grid-room {
         grid-template-columns: 1fr;    
     }
-
-    /* .friendships-grid-room .texts {
-        width: 50%;
-    } */
-
+    .friendships-text h2 {
+        font-size: 20px;
+    }
+  
     .friendships-grid-room h3 {
         font-size: 16px;
         line-height: 26.83px;

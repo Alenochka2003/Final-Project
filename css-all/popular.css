@@ -1,6 +1,12 @@
 .popular-cities-text {
   margin-top: 64px;
 }
+.popular-cities-text h2{
+  font-size: 28px;
+}
+.popular-works-texst h2{
+  font-size: 28px;
+}
 
 .popular-cities-text p {
   margin-top: 16px;
@@ -27,6 +33,10 @@
   margin-bottom: 24px;
 }
 
+.popular-grids img:hover{
+  transform: scale(1.1);
+  filter: grayscale(100%);
+}
 .popular-meetup {
   margin-top: 64px;
   margin-bottom: 64px;
@@ -65,8 +75,9 @@
   font-weight: 500;
 }
 
-.popular-group h3 {
+.popular-grids h3:hover {
   margin-bottom: 16px;
+  text-decoration: underline;
  
 }
 
@@ -76,6 +87,9 @@
 
 .a-rightside {
   margin-left: 24px;
+}
+.search2:hover{
+  text-decoration: underline;
 }
 
 @media (max-width: 1400px) {
@@ -112,11 +126,15 @@
       flex-direction: column;
      
   }
-
+  .popular-container h2 {
+    font-size: 20px;
+    }
   .popular-grids {
       gap: 20px;
   }
-  
+  .popular-grids h3 {
+    font-size: 20px;
+  }
   .popular-works-left {
     width: 100%;
   }
