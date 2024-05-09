@@ -1,7 +1,7 @@
 
    .explore-room {
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
     align-items: center;
     gap: 16px;
 
@@ -22,11 +22,10 @@
     flex-direction: column; 
     justify-content: center; 
     align-items: center;
-    width: 135px;
-    min-height: 112px;
-    margin-top: 24px;
+    
     background-color: rgba(151, 202, 209, 0.08);
     border-radius: 8px;
+    padding: 20px;
     
   }
   
@@ -40,63 +39,38 @@
   }
 
   @media  (max-width: 1400px) {
-    .explore-foto {
-        width: calc(25% - .75rem);
-        /* width: calc(50% - 5rem); */
-    }
-
+  }
     .explore-room {
       display: flex;
       row-gap: 16px;
       justify-content: space-between;
       flex-wrap: wrap;
-      gap: 0;
       
      }
-}
+
   @media (max-width: 1200px)
   {
     .explore-room {
-     row-gap: 16px;
-     justify-content: space-between;
+     gap: 16px;
      flex-wrap: wrap;
      display: flex;
-    }
-   
-    .explore-foto{
-    width: calc(50% - 5rem);
     }
     }
    
 
         @media (max-width: 992px)
 {
-  .explore-foto {
-              width: calc(40% - .5rem);
-              text-align: center; 
-              padding-top: 1.25rem;
-              padding-bottom: 1rem;
-              padding-left: 1.25rem;
-            padding-right: 1.25rem;
-            row-gap: 10px;
-        justify-content: space-between;
-         flex-wrap: wrap;
-         display: flex;
-          }
-      }
-      
-  
-
-
-@media (max-width: 768px) {
-  .explore-foto {
-    justify-content: space-between;
+  .explore-room {
+    gap: 16px;
     flex-wrap: wrap;
     display: flex;
-  }
+   }
 }
+
 @media (max-width: 768px) {
-  .explore-text h2 {
+  
+
+.explore-text h2 {
     font-size: 20px;
   }
 }
