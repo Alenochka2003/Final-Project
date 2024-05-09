@@ -66,3 +66,4 @@ eventTypeSelect.addEventListener("change", () => {filterEvents(eventsStore)})
 eventDistanceSelect.addEventListener("change", () => {filterEvents(eventsStore)})
 eventCategorySelect.addEventListener("change", () => {filterEvents(eventsStore)})
 createEvent(eventsStore)
+

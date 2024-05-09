@@ -36,6 +36,13 @@
   width: 100%;
   object-fit: cover;
 }
+
+.upcoming-online-img {
+  position: absolute;
+  width: clamp(25px, 50%, 106px);
+  left: 10px;
+  top: 5px;
+}
 .upcoming-grids-room p {
   display: flex;
   align-items: center;
@@ -117,8 +124,6 @@
   width: 100%;
 }
 
-
-
 .upcoming-right {
   display: none;
 }
@@ -152,6 +157,7 @@
   object-fit: contain;
   
 }
+
 
 .upcoming-grids-room a h3 {
   order: 1;
