@@ -112,6 +112,16 @@ margin-left: 16px;
  margin-right: 4px; 
  margin-bottom: -1px; 
 }
+.image-all-online {
+  position: relative;
+
+}
+.online1 {
+position: absolute;
+top:7px;
+left:6px;
+}
+
 @media (max-width: 1400px) {
   .events-container {
     max-width: 1156px;
