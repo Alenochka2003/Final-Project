@@ -268,5 +268,8 @@ margin-left: 16px;
 .events-grids-room .span-data {
   display: none;
 }
+.left-text a{
+  font-size: 13.71px;
+}
 }
 
