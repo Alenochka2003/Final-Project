@@ -7,6 +7,7 @@ const eventTypeSelect = document.getElementById("event-type")
 const eventDistanceSelect = document.getElementById("event-distance")
 const eventCategorySelect = document.getElementById("event-category")
 
+
 function createEvent(arr) {
   arr.forEach((eventElement) => {
     const eventItem = createDomElement({ tag: "a", className: "events-link", href: "#" })
