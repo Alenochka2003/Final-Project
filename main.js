@@ -46,9 +46,9 @@ function clearEvents() {
   }
 }
 function filterEvents(arr) {
-  const selectedType = eventTypeSelect.value === "any" ? undefined : eventTypeSelect.value
-  const selectedDistance = eventDistanceSelect.value === "any" ? undefined : eventDistanceSelect.value
-  const selectedCategory = eventCategorySelect.value === "any" ? undefined : eventCategorySelect.value
+  const selectedType = eventTypeSelect.value !== "any" && eventTypeSelect.value
+  const selectedDistance = eventDistanceSelect.value !== "any" && eventDistanceSelect.value
+  const selectedCategory = eventCategorySelect.value !== "any" && eventCategorySelect.value
   let filteredArr = arr
   if (selectedType) {
     filteredArr = filteredArr.filter((element) => element.type === selectedType)
