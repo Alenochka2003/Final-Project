@@ -202,7 +202,7 @@ border-radius:none;
   
 } 
 .left-text h2{
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .online1 {
@@ -261,10 +261,7 @@ display: none;
 font-size: 13.71px;
 }
 }
-.left-text h2{
-  font-size: 20px;
- 
-}
+
 
 @media (max-width: 576px) {
   .events-grids-room {

@@ -31,12 +31,12 @@ function createEvent(arr) {
       eventDetails.append(onlineEventImage)
     }
     if (eventElement.attendsInfo) {
-      const eventsAtendees = createDomElement({
+      const eventsInfo = createDomElement({
         tag: "p",
         className: "events-info-container-attendsInfo",
         textValue:`${eventElement.attendsInfo} attendsInfo`,
       })
-      eventDetails.append(eventsAtendees)
+      eventDetails.append(eventsInfo)
     }
   })
 }
